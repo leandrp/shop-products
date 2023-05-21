@@ -1,0 +1,20 @@
+.detalhe-container-main{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    width:1920px;
+    align-items: center;
+}
+
+.detalhe-container-text{
+    font-family:"Ubuntu";
+    font-size:32px;
+    font-weight:400;
+    color:#2e2e2e;
+    line-height:37px;
+    margin: 0 15px 5px 15px;
+}
+.detalhe-container-cards{
+    display:flex;
+    margin: auto;
+}

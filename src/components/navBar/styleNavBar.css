@@ -1,0 +1,62 @@
+.container-main-header{
+    box-sizing: border-box;
+    display: flex;
+    position: absolute;
+    width: 1920px;
+    height: 98px;
+    left: 1px;
+    top: 0px;
+    background-color: #512da8;
+  }
+  
+  .container-main-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 263px;
+    height: 46px;
+    left: 850px;
+    top: 25px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FFFFFF;
+    margin-top: 0;
+  }
+
+  .container-main-user-mail{
+    position: absolute;
+    width: 211px;
+    height: 32px;
+    left: 1483px;
+    top: 33px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF; 
+    margin-top: 0;
+  }
+
+  .container-main-user-logout{
+    position: absolute;
+    right: 72px;
+    top: 28px;
+    background-color: #f3bd30;
+    border-radius:20px;
+    width:97px;
+    height:43px;
+    font-family:'Ubuntu';
+    color: #ffffff;
+    font-size:20px;
+    font-weight: 700;
+    line-height: 23px;
+    margin-top: 0;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+  }

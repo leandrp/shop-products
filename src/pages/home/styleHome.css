@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.container-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-main-body {
+  flex-grow: 1;
+  margin: auto;
+  position: absolute;
+  top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
